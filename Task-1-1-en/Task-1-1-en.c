@@ -1,4 +1,5 @@
-// Task-1-1-en.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Task-1-1-en.cpp : This file contains the 'main' function. 
+// Program execution begins and ends there.
 //
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -20,7 +21,10 @@ int main(int argc, char* argv[])
     b = t * k; // Number of blocks is calculated
     printf("From %d blocks, you can build a maximum of %d towers\r\n", n, t);
     printf("This will take %d blocks.\r\n", b);
-    return 0;
+    // -- Delaying screen output until the "Enter" key is pressed
+    getchar();  // Clearing the input buffer
+    getc(stdin); // Reading a character from the keyboard
+    return 0; // Exiting the program (function).
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
@@ -31,5 +35,7 @@ int main(int argc, char* argv[])
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages
 //   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+//   5. Go to Project > Add New Item to create new code files, 
+//      or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, 
+//      go to File > Open > Project and select the .sln file

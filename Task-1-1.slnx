@@ -6,6 +6,6 @@
   <Folder Name="/Solution Items/">
     <File Path="Task-1-1.txt" />
   </Folder>
-  <Project Path="Task-1-1-en/Task-1-1-en.vcxproj" />
-  <Project Path="Task-1-1-ru/Task-1-1-ru.vcxproj" />
+  <Project Path="Task-1-1-en/Task-1-1-en.vcxproj" Id="7857de5a-6725-45b3-b465-44fb4b1769ce" />
+  <Project Path="Task-1-1-ru/Task-1-1-ru.vcxproj" Id="2206793f-8b9f-4d55-9d4e-93609e991c27" />
 </Solution>
